@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.div-logo{
+    text-align: center;
+}
+@media screen and (min-width: 992px){
+    .nazwa-firmy{
+        padding: 15px;
+        font-size: 124px;
+        text-align: center;
+        color: black;
+        font-weight: 300;
+    }
+    .logo{
+        padding: 15px;
+        height: 200px;
+        width: 200px;
+     }
+    .imie-nazwisko{
+        text-align: center;
+        font-size: 72px;
+    }
+}
+@media screen and (max-width: 992px){
+    .nazwa-firmy{
+        padding: 15px;
+        font-size: 72px;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+    }
+    .logo{
+        padding: 15px;
+        height: 250px;
+        width: 250px;
+     }
+    .imie-nazwisko{
+        text-align: center;
+        font-size: 68px;
+        font-weight: 200;
+    }
+    .portret{
+        height: 470px;
+        width: 300px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.tekst-glowny{
+    padding-bottom: 20px;
+}
+.portret{
+    text-align: center;
+}
+.slajdy{
+    border-radius: 10px;
+}
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    outline: black;
+    background-image: none;
+    filter: invert(100%);
+}
